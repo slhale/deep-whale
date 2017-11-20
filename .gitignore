@@ -1,3 +1,10 @@
+# Data files
+*.hdf5
+*.json
+*.zip
+*.aiff
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
