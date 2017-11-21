@@ -74,7 +74,7 @@ callbacks.append(keras.callbacks.CSVLogger("training_log_"+time.strftime("%Y%m%d
 model.fit(training_data, training_labels, epochs=epochs,
           batch_size=batch_size, verbose=2, shuffle='batch',
           validation_data=(validation_data, validation_labels),
-          callbacks=[])
+          callbacks=callbacks)
 
 # Save the model
 if args.save_file:
