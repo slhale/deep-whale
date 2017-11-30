@@ -31,8 +31,8 @@ model.compile(optimizer='adadelta', loss='categorical_crossentropy',
                       metrics=['accuracy'])
 
 
-timeseries_data_file = 'whale_training_samples19200train4800val6000test_shape4000.hdf5'
-fft_data_file = 'whale_training_fft_samples19200train4800val6000test_shape2001x2.hdf5'
+timeseries_data_file = 'whale_training_timeseries_samples19200train4800val6000test_shape4000_gen20171129.hdf5'
+fft_data_file = 'whale_training_fft_samples19200train4800val6000test_shape2001x2_gen20171129.hdf5'
 
 # Define normalizer for loading data
 def normalize_long_axis(x):
