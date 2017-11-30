@@ -1,5 +1,6 @@
 # Data files
 *.hdf5
+*.h5
 *.json
 *.zip
 *.aiff
